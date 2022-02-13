@@ -172,3 +172,306 @@ p {
   padding: 20px 15%;
   text-align: justify;
 }
+/* package */
+ .package-free a,  .package-basic a ,  .package-luxury a {
+  border: 1px solid;
+  padding: 11px 62px;
+ 
+ 
+}
+ .package-free a{
+  margin-left: 30%;
+}
+.package .package-basic a{
+  margin-left: 16%;
+}
+.package .package-luxury a{
+  margin-left: 10%;
+}
+/* login */
+
+.login {
+	padding-top: 130px;
+	padding-bottom: 120px;
+}
+
+.login__form {
+	position: relative;
+	padding-left: 31%;
+  /* text-align: center; */
+}
+
+.login__form:after {
+	position: absolute;
+	right: -14px;
+	top: -40px;
+	height: 330px;
+	width: 1px;
+	background: rgba(255, 255, 255, 0.2);
+	content: "";
+}
+
+.login__form h2 {
+	color: #ffffff;
+	font-weight: 700;
+	font-family: "Oswald", sans-serif;
+  margin-bottom: 45px;
+  margin-left: 17%;
+}
+
+.login__form form .input__item {
+	position: relative;
+	width: 370px;
+	margin-bottom: 20px;
+}
+
+.login__form form .input__item:before {
+	position: absolute;
+	left: 50px;
+	top: 10px;
+	height: 30px;
+	width: 1px;
+	background: #b7b7b7;
+	content: "";
+}
+
+.login__form form .input__item input {
+	height: 50px;
+	width: 440px;
+	font-size: 15px;
+	color: #b7b7b7;
+	background: #2D2D2D;
+	border: none;
+	padding-left: 76px;
+}
+
+.login__form form .input__item input::-webkit-input-placeholder {
+	color: #b7b7b7;
+}
+
+.login__form form .input__item input::-moz-placeholder {
+	color: #b7b7b7;
+}
+
+.login__form form .input__item input:-ms-input-placeholder {
+	color: #b7b7b7;
+}
+
+.login__form form .input__item input::-ms-input-placeholder {
+	color: #b7b7b7;
+}
+
+.login__form form .input__item input::placeholder {
+	color: #b7b7b7;
+}
+
+.login__form form .input__item span {
+	color: #b7b7b7;
+	font-size: 20px;
+	position: absolute;
+	left: 15px;
+	top: 13px;
+}
+
+.login__form form button {
+	border-radius: 0;
+	margin-top: 44px;
+  background: #C90109;
+    margin-right: auto;
+    width: 130px;
+    margin-left: 19%;
+}
+
+.login__form .forget_pass {
+	font-size: 15px;
+	color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	bottom: 52px;
+  margin-left: 14%;
+}
+
+.login__register {
+
+  padding-top: 30px;
+    margin-left: 38%;
+    display: flex;
+}
+.login__register a, .login__register p{
+  color: white;
+}
+.login__register a:hover {
+	color: darkorange;
+	
+}
+
+.login__register .primary-btn {
+	background: #e53637;
+	padding: 12px 42px;
+}
+
+.login__social {
+	padding-top: 52px;
+}
+
+.login__social__links {
+	text-align: center;
+}
+
+.login__social__links span {
+	color: #ffffff;
+	display: block;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.login__social__links ul li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.login__social__links ul li:last-child {
+	margin-bottom: 0;
+}
+
+.login__social__links ul li a {
+	color: black;
+	display: block;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	width: 430px;
+	padding: 14px 0;
+	position: relative;
+	margin: 0 auto;
+}
+
+.login__social__links ul li a.facebook {
+	background: white;
+}
+.login__social__links ul li a.facebook i{
+  color: #212170
+}
+
+.login__social__links ul li a.google {
+	background: white;
+}
+
+.login__social__links ul li a.twitter {
+	background: white;
+
+}
+
+.login__social__links ul li a i , .google img{
+  font-size: 28px;
+  position: absolute;
+  left: 32px;
+  top: 10px;
+}
+.login__social__links ul li a.twitter i {
+	color: rgb(62, 62, 122);
+
+}
+.login__social__links  span::before {
+  position: relative;
+  top: -8px;
+  content: "__________________________";
+  color: white;
+  padding-right: 10px;
+  font-weight: 300;
+}
+
+.login__social__links  span::after {
+  position: relative;
+  top: -8px;
+  content: "__________________________";
+  color: white;
+  padding-left: 10px;
+  font-weight: 300;
+}
+/* account */
+.infor-accout, .view-infor {
+  background: #1B1B1B;
+  padding: 30px 30px;
+  height: 500px;
+}
+
+.manage-service .phone, .manage-service .chrome{
+  background: #1B1B1B;
+  height: 20px;
+  padding: 30px 30px;
+}
+.infor-accout button{
+  background: none;
+    border: none;
+    margin-bottom: 20px;
+}
+.infor-accout .my-accout button{
+ margin-top: 30px;
+}
+.infor-accout button:hover{
+  background: none;
+    border: none;
+   
+}
+.infor-accout a{
+  padding-left: 9px;
+    color: white
+}
+.img-user img{
+  margin-left: 40%;
+    width: 142px;
+    height: 142px;
+    color: black;
+    border-radius: 65%;
+    margin-bottom: 30px;
+}
+.name-user h2{
+  color: white;
+    margin-bottom: 45px;
+    text-align: center;
+}
+.input-infor input{
+  margin: 10px 50px;
+  background: #303030;
+    border: #303030;
+}
+.manage-service {
+  display: none;
+}
+.manage-service .phone{
+  margin-bottom: 20px;
+  padding-bottom: 51px;
+
+}
+.manage-service .chrome{
+  margin-bottom: 20px;
+  padding-bottom: 51px;
+
+}
+.manage-service .phone i{
+  color: red;
+  padding-top: 3px;
+}
+.manage-service .chrome i{
+  color: green;
+  padding-top: 3px;
+}
+.manage-service .phone p{
+  padding-left: 15px;
+  padding-bottom: 12px;
+  color: white;
+}
+.manage-service .chrome p{
+  padding-left: 15px;
+  padding-bottom: 12px;
+  color: white;
+}
+.manage-service a{
+  float: right;
+    color: white;
+}
